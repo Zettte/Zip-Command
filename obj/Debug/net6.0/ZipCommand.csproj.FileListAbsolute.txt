@@ -1,0 +1,15 @@
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\bin\Debug\net6.0\ZipCommand.exe
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\bin\Debug\net6.0\ZipCommand.deps.json
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\bin\Debug\net6.0\ZipCommand.runtimeconfig.json
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\bin\Debug\net6.0\ZipCommand.dll
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\bin\Debug\net6.0\ZipCommand.pdb
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ZipCommand.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ZipCommand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ZipCommand.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ZipCommand.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ZipCommand.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ZipCommand.dll
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\refint\ZipCommand.dll
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ZipCommand.pdb
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ZipCommand.genruntimeconfig.cache
+C:\Users\Administrador\Documents\Programming\C#\ZipCommand\obj\Debug\net6.0\ref\ZipCommand.dll
