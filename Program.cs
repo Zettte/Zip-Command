@@ -9,19 +9,26 @@ namespace Zip
         {
             if(args.Length == 0)
             {
-                throw new ArgumentException("No arguments provided.");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("No arguments provided, please read the documentation for more information.");
+                Console.ResetColor();
+                Environment.Exit(1);
             }
 
             switch(args[0])
             {
                 case "-D": 
                     ZipFile.ExtractToDirectory(args[1], args[2], true);
-                    Console.WriteLine("Package succesfully extracted.");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"Package succesfully extracted at {args[2]}");
+                    Console.ResetColor();
                     break;
 
                 case "-C":
                     ZipFile.CreateFromDirectory(args[1], args[2], CompressionLevel.Fastest, bool.Parse(args[3]));
-                    Console.WriteLine("Package succesfully created.");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"Package succesfully created at {args[2]}.");
+                    Console.ResetColor();
                     break;
 
                 case "-CE":
@@ -40,11 +47,12 @@ namespace Zip
 
                 case "-R":
                     string ZipPath = args[1];
+                    Console.WriteLine("List of the files and/or folders inside this zip file: ");
                     using (ZipArchive Archive = ZipFile.OpenRead(ZipPath))
                     {
                         foreach (ZipArchiveEntry Entry in Archive.Entries)
                         {
-                            Console.WriteLine(Entry.FullName);
+                            Console.WriteLine($"\t\t{Entry.FullName}");
                         }
                     }
                     break;
