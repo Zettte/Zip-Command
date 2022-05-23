@@ -1,6 +1,6 @@
 # Zip Command
 
-This is a command that you can use in any Terminal or CLI. With the keyword "Zip" you are capable of:
+This is a command that you can use in any Terminal or CLI without any application. With the keyword "zip" you are capable of:
 
 - Reading the items inside a Zip file.
 - Rapid extracting of a Zip file wherever you want.
@@ -20,4 +20,4 @@ First, donwload the zip file of this repository, then (this will be so ironic) y
 
 ##### 4 | Another window will appear and finally you have to click in one blank field and paste right there de direction of the file called "Zip.exe" where is located inside "Zip-Command\bin\Debug\net6.0\". (You have to paste the full path to the file or it won't work).
 
-And there you have it!, Just open your terminal and type some command like "Zip -R "Downloads/sample.zip".
+And there you have it!, Just open your terminal and type some command like "zip -R "Downloads/sample.zip".
